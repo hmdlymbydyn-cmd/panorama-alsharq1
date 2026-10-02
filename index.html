@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بانوراما الشرق | مقهى بإطلالة بانورامية - الزرقاء، الأردن</title>
+<meta name="description" content="بانوراما الشرق، مقهى بإطلالة بانورامية في ضاحية الأميرة سلمى بالزرقاء. مشروبات ساخنة وباردة وحلويات، خدمة درايف ثرو، وأجواء هادئة تناسب العائلة.">
+
+<!-- Google Fonts: El Messiri (Display) + Tajawal (Body) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== شريط التنقل ===================== -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 27L12 14L19 22L27 9L38 27" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="30" cy="10" r="3.4" stroke="currentColor" stroke-width="2.2"/>
+        </svg>
+      </span>
+      <span class="brand-text">
+        <strong>بانوراما الشرق</strong>
+        <em>PANORAMA AL-SHARQ</em>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#about" class="nav-link">عن المقهى</a>
+      <a href="#menu" class="nav-link">القائمة</a>
+      <a href="#gallery" class="nav-link">لقطات من المكان</a>
+      <a href="#reviews" class="nav-link">آراء الزوار</a>
+      <a href="#visit" class="nav-link">الموقع والأوقات</a>
+      <a href="#reserve" class="nav-link nav-cta">احجز طاولة</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===================== قسم البطل Hero ===================== -->
+  <section class="hero">
+    <div class="hero-skyline" aria-hidden="true">
+      <svg viewBox="0 0 1200 420" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="ridge ridge-1" d="M0 300 L120 240 L260 290 L420 210 L560 270 L700 190 L860 260 L1000 220 L1200 280 L1200 420 L0 420 Z"/>
+        <path class="ridge ridge-2" d="M0 340 L150 300 L300 340 L480 280 L620 330 L780 290 L950 330 L1200 300 L1200 420 L0 420 Z"/>
+        <circle class="sun" cx="920" cy="120" r="46"/>
+      </svg>
+    </div>
+
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="hero-eyebrow">مقهى · ضاحية الأميرة سلمى · الزرقاء</p>
+        <h1 class="hero-title">إطلالة تستحق فنجان قهوتك</h1>
+        <p class="hero-desc">
+          على تلال الزرقاء، فتحنا بانوراما الشرق ليكون المكان اللي بترجع له كل مرة تدوّر فيها على هدوء،
+          إطلالة واسعة، وفنجان مضبوط. جلسات مريحة، خدمة سريعة، وأسعار منطقية للجميع.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#reserve" class="btn btn-primary">احجز طاولتك</a>
+          <a href="#visit" class="btn btn-ghost">الاتجاهات والموقع</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num" data-count="4.3">0</span>
+            <span class="stat-label">تقييم من ٥ <br><small>عبر ١٣٥ تقييم</small></span>
+          </div>
+          <span class="stat-divider" aria-hidden="true"></span>
+          <div class="stat">
+            <span class="stat-num">٥–١٠</span>
+            <span class="stat-label">دينار أردني<br><small>متوسط السعر للفرد</small></span>
+          </div>
+          <span class="stat-divider" aria-hidden="true"></span>
+          <div class="stat">
+            <span class="stat-num">١:٠٠ ص</span>
+            <span class="stat-label">وقت الإغلاق<br><small>مفتوح يومياً</small></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-badge-card">
+        <div class="badge-row">
+          <span class="badge-pill">مفتوح الآن</span>
+          <span class="badge-pill badge-pill-outline">درايف ثرو متاح</span>
+        </div>
+        <h3>بانوراما الشرق</h3>
+        <p class="badge-addr">شارع رافع بني حسن، ضاحية الأميرة سلمى، الزرقاء</p>
+        <div class="badge-phone">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.3 2.6 3.4 4.7 6 6l2-2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.5 21 3 13.5 3 4c0-.6.4-1 1-1h3.9c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1l-2 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <span dir="ltr">07 7997 0924</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== شريط معلومات سريعة ===================== -->
+  <section class="quickbar reveal">
+    <div class="wrap quickbar-grid">
+      <div class="qb-item">
+        <span class="qb-icon">☕</span>
+        <div><strong>مقهى</strong><small>مشروبات وحلويات فقط</small></div>
+      </div>
+      <div class="qb-item">
+        <span class="qb-icon">🚗</span>
+        <div><strong>درايف ثرو</strong><small>اطلب دون النزول من السيارة</small></div>
+      </div>
+      <div class="qb-item">
+        <span class="qb-icon">🕐</span>
+        <div><strong>يومياً حتى ١:٠٠ ص</strong><small>بما فيها عطلة نهاية الأسبوع</small></div>
+      </div>
+      <div class="qb-item">
+        <span class="qb-icon">📍</span>
+        <div><strong>34G5+4H</strong><small>الزرقاء، الأردن</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== عن المقهى ===================== -->
+  <section id="about" class="about">
+    <div class="wrap about-grid">
+      <div class="about-visual reveal">
+        <div class="about-frame">
+          <svg viewBox="0 0 400 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="400" height="460" rx="18" fill="url(#g1)"/>
+            <path d="M0 320 L90 250 L180 300 L260 230 L400 290 L400 460 L0 460 Z" fill="#25433d" opacity="0.55"/>
+            <path d="M0 360 L120 320 L220 355 L320 315 L400 340 L400 460 L0 460 Z" fill="#1c332e" opacity="0.7"/>
+            <circle cx="290" cy="120" r="46" fill="#e9c887"/>
+            <defs>
+              <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#3a5a53"/>
+                <stop offset="1" stop-color="#1c2e2a"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="about-cup" aria-hidden="true">
+            <svg viewBox="0 0 64 64"><path d="M10 22h36v18a14 14 0 0 1-14 14H24a14 14 0 0 1-14-14V22Z" stroke="currentColor" stroke-width="2.6" fill="none"/><path d="M46 26h4a7 7 0 0 1 0 14h-4" stroke="currentColor" stroke-width="2.6" fill="none"/><path d="M18 22c-1-4 2-5 1-9M28 22c-1-4 2-5 1-9M38 22c-1-4 2-5 1-9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-copy reveal">
+        <p class="section-kicker">قصتنا</p>
+        <h2>قهوة بلا استعجال، وإطلالة ما بتتكرر</h2>
+        <p class="lead">
+          اخترنا موقعنا على مرتفعات ضاحية الأميرة سلمى عشان نقدّم شي أكثر من فنجان قهوة عادي؛
+          مساحة توقف فيها الوقت شوي، تتنفس، وتستمتع بإطلالة الزرقاء وهي بتضوي مع الغروب.
+        </p>
+        <p>
+          فريقنا يركّز على التفاصيل: تحضير دقيق، نظافة عالية، وخدمة سريعة سواء كنت جالس بالداخل
+          أو بتفضّل الدرايف ثرو وأنت بطريقك. المكان بيناسب اللقاءات العائلية والجلسات الهادئة مع صحاب،
+          وما بنقدّم وجبات — بس مشروباتنا وحلوياتنا مرتبة ومدروسة.
+        </p>
+
+        <ul class="about-points">
+          <li><span>هادئ ويناسب العائلة</span></li>
+          <li><span>جلسات مريحة بإطلالة مفتوحة</span></li>
+          <li><span>معايير نظافة عالية</span></li>
+          <li><span>خدمة سريعة ومحترمة</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== القائمة ===================== -->
+  <section id="menu" class="menu">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="section-kicker">القائمة</p>
+        <h2>مشروبات مختارة بعناية</h2>
+        <p class="lead">الأسعار تقريبية بالدينار الأردني، ومتوسط الفاتورة للفرد يتراوح بين ٥ و١٠ دنانير.</p>
+      </div>
+
+      <div class="menu-groups">
+
+        <div class="menu-group reveal">
+          <h3 class="menu-group-title">مميزات المقهى <span>Signature</span></h3>
+          <ul class="menu-list">
+            <li><span class="m-name">ليمون ونعنع بانوراما</span><span class="m-dots"></span><span class="m-price">٣.٥٠</span></li>
+            <li><span class="m-name">نسكافيه بانوراما الخاص</span><span class="m-dots"></span><span class="m-price">٣.٠٠</span></li>
+            <li><span class="m-name">شاي بالنعنع على الفحم</span><span class="m-dots"></span><span class="m-price">٢.٧٥</span></li>
+          </ul>
+        </div>
+
+        <div class="menu-group reveal">
+          <h3 class="menu-group-title">مشروبات ساخنة <span>Hot</span></h3>
+          <ul class="menu-list">
+            <li><span class="m-name">قهوة عربية</span><span class="m-dots"></span><span class="m-price">٢.٥٠</span></li>
+            <li><span class="m-name">إسبريسو</span><span class="m-dots"></span><span class="m-price">٢.٢٥</span></li>
+            <li><span class="m-name">لاتيه</span><span class="m-dots"></span><span class="m-price">٣.٠٠</span></li>
+            <li><span class="m-name">كابتشينو</span><span class="m-dots"></span><span class="m-price">٣.٠٠</span></li>
+          </ul>
+        </div>
+
+        <div class="menu-group reveal">
+          <h3 class="menu-group-title">مشروبات باردة <span>Cold</span></h3>
+          <ul class="menu-list">
+            <li><span class="m-name">آيس لاتيه</span><span class="m-dots"></span><span class="m-price">٣.٥٠</span></li>
+            <li><span class="m-name">فرابيه</span><span class="m-dots"></span><span class="m-price">٣.٧٥</span></li>
+            <li><span class="m-name">موهيتو فواكه</span><span class="m-dots"></span><span class="m-price">٣.٢٥</span></li>
+            <li><span class="m-name">عصير طبيعي موسمي</span><span class="m-dots"></span><span class="m-price">٣.٠٠</span></li>
+          </ul>
+        </div>
+
+        <div class="menu-group reveal">
+          <h3 class="menu-group-title">حلويات <span>Desserts</span></h3>
+          <ul class="menu-list">
+            <li><span class="m-name">تشيز كيك</span><span class="m-dots"></span><span class="m-price">٤.٠٠</span></li>
+            <li><span class="m-name">كنافة</span><span class="m-dots"></span><span class="m-price">٣.٥٠</span></li>
+            <li><span class="m-name">براونيز بالشوكولاتة</span><span class="m-dots"></span><span class="m-price">٣.٢٥</span></li>
+            <li><span class="m-name">ريد فيلفيت</span><span class="m-dots"></span><span class="m-price">٤.٠٠</span></li>
+          </ul>
+        </div>
+
+      </div>
+      <p class="menu-note">* ملاحظة: المقهى يقدّم المشروبات والحلويات فقط، ولا يشمل وجبات طعام رئيسية.</p>
+    </div>
+  </section>
+
+  <!-- ===================== لقطات من المكان (بديل الصور) ===================== -->
+  <section id="gallery" class="gallery">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="section-kicker">لقطات من المكان</p>
+        <h2>الأجواء، المشروبات، والإطلالة</h2>
+      </div>
+
+      <div class="gallery-grid reveal">
+        <div class="g-tile g-tile-lg tone-teal">
+          <span class="g-icon">🌄</span>
+          <strong>الإطلالة</strong>
+          <small>جلسات خارجية تطل على تلال الزرقاء</small>
+        </div>
+        <div class="g-tile tone-gold">
+          <span class="g-icon">☕</span>
+          <strong>المشروبات</strong>
+          <small>تحضير طازج لكل طلب</small>
+        </div>
+        <div class="g-tile tone-brick">
+          <span class="g-icon">🍰</span>
+          <strong>الحلويات</strong>
+          <small>تشكيلة يومية طازجة</small>
+        </div>
+        <div class="g-tile tone-ink">
+          <span class="g-icon">🪑</span>
+          <strong>الأجواء الداخلية</strong>
+          <small>جلسات هادئة تناسب العائلة</small>
+        </div>
+        <div class="g-tile tone-gold">
+          <span class="g-icon">🚗</span>
+          <strong>الدرايف ثرو</strong>
+          <small>لمن هو على عجلة</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== أوقات الازدحام ===================== -->
+  <section class="popular reveal">
+    <div class="wrap popular-grid">
+      <div class="popular-copy">
+        <p class="section-kicker">أوقات الازدحام</p>
+        <h2>وقتك بدك تشرب فيه قهوتك بهدوء؟</h2>
+        <p class="lead">بيانات تقريبية ليوم الثلاثاء، تساعدك تختار الوقت الأنسب لزيارتك.</p>
+        <p class="popular-live"><span class="dot" aria-hidden="true"></span> غير مزدحم الآن</p>
+      </div>
+      <div class="popular-chart-wrap">
+        <div class="popular-chart" id="popularChart" role="img" aria-label="رسم بياني لأوقات الازدحام على مدار اليوم"></div>
+        <div class="popular-tooltip" id="popularTooltip"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== الآراء ===================== -->
+  <section id="reviews" class="reviews">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="section-kicker">آراء الزوار</p>
+        <h2>وش قال اللي زاروا بانوراما الشرق</h2>
+      </div>
+
+      <div class="reviews-summary reveal">
+        <div class="rs-score">
+          <span class="rs-num">٤.٣</span>
+          <div class="rs-stars" aria-hidden="true">★★★★☆</div>
+          <span class="rs-count">١٣٥ تقييم</span>
+        </div>
+        <div class="rs-bars">
+          <div class="rs-bar-row"><span>٥</span><div class="rs-bar"><i style="--w:68%"></i></div></div>
+          <div class="rs-bar-row"><span>٤</span><div class="rs-bar"><i style="--w:20%"></i></div></div>
+          <div class="rs-bar-row"><span>٣</span><div class="rs-bar"><i style="--w:7%"></i></div></div>
+          <div class="rs-bar-row"><span>٢</span><div class="rs-bar"><i style="--w:3%"></i></div></div>
+          <div class="rs-bar-row"><span>١</span><div class="rs-bar"><i style="--w:2%"></i></div></div>
+        </div>
+      </div>
+
+      <div class="review-tags reveal">
+        <span>أجواء عائلية ممتازة</span>
+        <span>مكان هادئ</span>
+        <span>جلسات مريحة</span>
+        <span>نظافة عالية</span>
+      </div>
+
+      <div class="review-cards reveal">
+        <article class="review-card">
+          <div class="rc-head">
+            <span class="rc-avatar">ز</span>
+            <div>
+              <strong>Zaid Alasaf</strong>
+              <small>قبل ٣ أسابيع</small>
+            </div>
+            <span class="rc-stars">★★★★★</span>
+          </div>
+          <p>بصراحة من أفضل الأماكن اللي زرتها 👌🔥 المكان ولا غلطة، الجلسات والإطلالة بتجنن، والخدمة فوق الممتازة والطاقم محترم وسريع بالتعامل ❤️ والأسعار جدًا مناسبة مقارنة بالمستوى.</p>
+        </article>
+
+        <article class="review-card">
+          <div class="rc-head">
+            <span class="rc-avatar">هـ</span>
+            <div>
+              <strong>Hedaya Elkhatieb</strong>
+              <small>قبل ٣ أسابيع</small>
+            </div>
+            <span class="rc-stars">★★★★★</span>
+          </div>
+          <p>الخدمة كتير مرتبة والمكان كتير حلو والأجواء بتفوزز والستاف ما قصّر، تجربة بتتكرر 🤍</p>
+        </article>
+
+        <article class="review-card">
+          <div class="rc-head">
+            <span class="rc-avatar">أ</span>
+            <div>
+              <strong>Ayat Shajrawi</strong>
+              <small>قبل ٣ أشهر · Local Guide</small>
+            </div>
+            <span class="rc-stars">★★★★☆</span>
+          </div>
+          <p>مهم تعرف قبل ما تزور: المقهى ما يقدّم وجبات، بس مشروبات باردة وساخنة وحلويات — وكلها مرتبة وطعمها حلو.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== الموقع والأوقات ===================== -->
+  <section id="visit" class="visit">
+    <div class="wrap visit-grid">
+      <div class="visit-copy reveal">
+        <p class="section-kicker">الموقع والأوقات</p>
+        <h2>زورنا في ضاحية الأميرة سلمى</h2>
+
+        <div class="visit-row">
+          <span class="v-icon">📍</span>
+          <div>
+            <strong>العنوان</strong>
+            <p>شارع رافع بني حسن، ضاحية الأميرة سلمى، الزرقاء، الأردن — 34G5+4H</p>
+          </div>
+        </div>
+        <div class="visit-row">
+          <span class="v-icon">📞</span>
+          <div>
+            <strong>الهاتف</strong>
+            <p dir="ltr">07 7997 0924</p>
+          </div>
+        </div>
+        <div class="visit-row">
+          <span class="v-icon">🚗</span>
+          <div>
+            <strong>الدرايف ثرو</strong>
+            <p>متاح على مدار ساعات العمل</p>
+          </div>
+        </div>
+
+        <table class="hours-table">
+          <tbody>
+            <tr><td>السبت – الخميس</td><td>٨:٠٠ ص – ١:٠٠ ص</td></tr>
+            <tr class="today"><td>الجمعة</td><td>٨:٠٠ ص – ١:٠٠ ص</td></tr>
+          </tbody>
+        </table>
+
+        <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=34G5%2B4H%20Zarqa" target="_blank" rel="noopener">فتح في خرائط جوجل</a>
+      </div>
+
+      <div class="visit-map reveal" aria-hidden="true">
+        <div class="map-card">
+          <svg viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg">
+            <rect width="360" height="320" fill="#e7dfce"/>
+            <path d="M0 40H360M0 90H360M0 140H360M0 190H360M0 240H360M0 290H360" stroke="#d3c8ad" stroke-width="2"/>
+            <path d="M40 0V320M100 0V320M180 0V320M260 0V320M320 0V320" stroke="#d3c8ad" stroke-width="2"/>
+            <path d="M0 150 Q120 100 180 150 T360 140" stroke="#c79a45" stroke-width="5" fill="none" opacity="0.8"/>
+            <circle cx="190" cy="150" r="10" fill="#8b3a2b"/>
+            <path d="M190 150 a10 10 0 1 0 0.01 0" fill="#8b3a2b"/>
+            <path d="M190 118 c16 0 28 12 28 27 0 20 -28 45 -28 45 s-28 -25 -28 -45c0 -15 12 -27 28 -27Z" fill="#8b3a2b"/>
+            <circle cx="190" cy="145" r="9" fill="#f5eee1"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== الحجز ===================== -->
+  <section id="reserve" class="reserve">
+    <div class="wrap reserve-grid">
+      <div class="reserve-copy reveal">
+        <p class="section-kicker">احجز طاولتك</p>
+        <h2>خلّينا نجهزلك مكان بإطلالة</h2>
+        <p class="lead">عبّي النموذج وفريقنا بيأكد الحجز عبر الاتصال بك خلال وقت قصير.</p>
+      </div>
+
+      <form class="reserve-form reveal" id="reserveForm" novalidate>
+        <div class="f-row">
+          <label>
+            <span>الاسم</span>
+            <input type="text" name="name" placeholder="اسمك الكامل" required>
+          </label>
+          <label>
+            <span>رقم الجوال</span>
+            <input type="tel" name="phone" placeholder="07XXXXXXXX" required>
+          </label>
+        </div>
+        <div class="f-row">
+          <label>
+            <span>التاريخ</span>
+            <input type="date" name="date" required>
+          </label>
+          <label>
+            <span>عدد الأشخاص</span>
+            <select name="guests" required>
+              <option value="">اختر</option>
+              <option>١ – ٢</option>
+              <option>٣ – ٤</option>
+              <option>٥ فأكثر</option>
+            </select>
+          </label>
+        </div>
+        <label class="f-full">
+          <span>ملاحظات إضافية (اختياري)</span>
+          <textarea name="notes" rows="3" placeholder="مثال: جلسة خارجية، مناسبة خاصة..."></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-block">إرسال طلب الحجز</button>
+        <p class="form-msg" id="formMsg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== الفوتر ===================== -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 27L12 14L19 22L27 9L38 27" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="30" cy="10" r="3.4" stroke="currentColor" stroke-width="2.2"/>
+        </svg>
+      </span>
+      <p>بانوراما الشرق — مقهى بإطلالة بانورامية في قلب الزرقاء. جلسات هادئة، خدمة سريعة، وفنجان قهوة يستاهل الطريق.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>تصفّح</h4>
+      <a href="#about">عن المقهى</a>
+      <a href="#menu">القائمة</a>
+      <a href="#reviews">آراء الزوار</a>
+      <a href="#visit">الموقع والأوقات</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>تواصل معنا</h4>
+      <a href="tel:0779970924" dir="ltr">07 7997 0924</a>
+      <a href="https://www.google.com/maps/search/?api=1&query=34G5%2B4H%20Zarqa" target="_blank" rel="noopener">شارع رافع بني حسن، الزرقاء</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 بانوراما الشرق. جميع الحقوق محفوظة.</span>
+    <button id="backTop" class="back-top" aria-label="العودة إلى الأعلى">↑</button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
